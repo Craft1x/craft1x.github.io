@@ -1,0 +1,53 @@
+body {
+	background-color: #fafafa;
+	margin: auto;
+    width:1000px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: #444444;
+}
+
+h3 {
+	text-align: center;
+	color: #222222;
+}
+
+.main_image {
+	width: 100px;
+	height: 100px;
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+	margin-left: 10%;
+}
+
+.column img {
+  width: 100%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
