@@ -48,6 +48,11 @@ p.lead a:hover {
 	background: #434242;
 	}
 
+.padded {
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
 
 .jumbotron .container h1 {
 	font-size: 4em;
@@ -109,15 +114,18 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
     filter: alpha(opacity=60);
 }
 
+#contact a:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
 .icon { 
 	display: inline-block;
 	width: 32px;
 	height: 32px;
+	margin-right: 10px;
 	}
 
-.icon:hover {
-	opacity: 1.0;
-}
 
 
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
