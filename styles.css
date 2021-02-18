@@ -44,9 +44,10 @@ p.lead a:hover {
 	background: #fff6fd;
 	}
 
-.background-gray { 
+.background-grey { 
 	background: #434242;
 	}
+
 
 .jumbotron .container h1 {
 	font-size: 4em;
@@ -95,6 +96,34 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
 #content {
   height: 4000px;
 }
+
+#contact h2 , #contact .row * {
+    color: #FFFFFF;
+}
+
+#contact a {
+    display: block;
+    line-height: 32px;
+    margin-bottom: 20px;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.icon { 
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	}
+
+.icon:hover {
+	opacity: 1.0;
+}
+
+
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+
+
 
 /* HOVER  */
 /* EFFECT */
