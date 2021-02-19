@@ -36,6 +36,11 @@ p.lead a:hover {
 	text-decoration: none;
 	}
 
+.modal-xl {
+    width: 90%;
+    max-width:1200px;
+  }
+
 .background-white { 
 	background: #FFFFFF;
 	}
