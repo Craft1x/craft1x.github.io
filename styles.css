@@ -37,9 +37,19 @@ p.lead a:hover {
 	}
 
 .modal-xl {
-    width: 90%;
-    max-width:1200px;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+    top: 0;
+    left: 0;
+	max-width: 100%;
   }
+
+.modal-content {
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+}
 
 .background-white { 
 	background: #FFFFFF;
@@ -131,14 +141,19 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
 	margin-right: 10px;
 	}
 
-.fullscreen {
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0;
-    top: 0;
-    left: 0;
-}
-
-
 ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
 hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+
+.top-content .carousel-control-prev {
+    left: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}
+ 
+.top-content .carousel-control-next {
+    right: -110px;
+    border-bottom: 0;
+    font-size: 40px;
+    color: #444;
+}

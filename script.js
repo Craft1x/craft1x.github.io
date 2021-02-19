@@ -7,4 +7,9 @@ function calculate_age(dob) {
 var age = calculate_age(new Date(2000,10,26));
 document.getElementById("age").textContent = age + " Years";
 
-$('#info-modal').modal('show')
+
+function openDialog(){
+	$('#info-modal').modal('show');
+}
+
+$('#info-modal').modal('show');

@@ -43,6 +43,7 @@
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
   width: 100%;
+  border-radius: 5px;
 }
 
 .hovereffect:hover img {
