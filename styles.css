@@ -37,16 +37,10 @@ p.lead a:hover {
 	}
 
 .modal-xl {
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0;
-    top: 0;
-    left: 0;
-	max-width: 100%;
+	max-width: 800px;
   }
 
 .modal-content {
-	height: 100%;
 	border-radius: 0px;
 	border: 0px;
 }
