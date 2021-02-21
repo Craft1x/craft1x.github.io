@@ -180,3 +180,12 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 .modal-content h2{
 	color: #2cb0b0;
 }
+
+.non-selectable {
+	-webkit-touch-callout: none;
+  	-webkit-user-select: none;
+   	-khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -25,7 +25,14 @@ function openDialog(title, subtitle, pictures, description, os, languages){
 }
 
 function openDialogFT(){
-	openDialog("Fasten Tools","Simplify your calculations",["images/projects/kl/1.png","images/projects/kl/2.png"],
+	openDialog("Fasten Tools","Simplify your calculations",[
+			"images/projects/ft/1.jpg",
+			"images/projects/ft/2.jpg",
+			"images/projects/ft/3.jpg",
+			"images/projects/ft/4.jpg",
+			"images/projects/ft/5.jpg",
+			"images/projects/ft/6.jpg"
+	],
 			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
 			,"Android","Java");	
 }
@@ -43,7 +50,12 @@ function openDialogSH(){
 }
 
 function openDialogKL(){
-	openDialog("Sublime Key-logger","Monitor PC usage",["images/projects/kl/1.png","images/projects/kl/2.png"],
+	openDialog("Sublime Key-logger","Monitor PC usage",[
+			"images/projects/kl/1.jpg",
+			"images/projects/kl/2.jpg",
+			"images/projects/kl/3.jpg",
+			"images/projects/kl/4.jpg"
+	],
 			"Lorem 4 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
 			,"Windows","C++");	
 }
