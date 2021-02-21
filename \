@@ -41,8 +41,8 @@
           aria-label="Close"><span aria-hidden=
           "true">×</span></button>
           <div id="dialog-container" class="container">
-            <h2 id="dialog-title">Fasten Tools</h2>
-            <p class="lead" id="dialog-subtitle">Simplify your calculations</p>
+            <h2>Fasten Tools</h2>
+            <p class="lead">Simplify your calculations</p>
             <hr>
             <div class="row">
               <div class="col-md-6 col-sm-12 col-xs-12"></div>
@@ -56,7 +56,7 @@
                   <!-- Carousel -->
                   <div id="carousel-example" class="carousel slide"
                   data-interval="false">
-                    <ol id="carousel-indicators" class="carousel-indicators">
+                    <ol class="carousel-indicators">
                       <li data-target="#carousel-example"
                       data-slide-to="0" class="active">&nbsp;</li>
                       <li data-target="#carousel-example"
@@ -66,7 +66,7 @@
                       <li data-target="#carousel-example"
                       data-slide-to="3">&nbsp;</li>
                     </ol>
-                    <div id="carousel-pictures" class="carousel-inner">
+                    <div class="carousel-inner">
                       <div class="carousel-item active"><img src=
                       "images/projects/kl/1.png" class=
                       "d-block w-100" alt="slide-img-1"></div>
@@ -94,38 +94,27 @@
               </div>
             </div>
           </div>
-          <div class="container modal-text-content">
-            <div class="row">
-              <div class=
-              "col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
-                <p id="dialog-text">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Phasellus ut nisi tristique,
-                posuere arcu ut, aliquam erat. Morbi dictum arcu
-                eget tincidunt faucibus. Vestibulum bibendum
-                pellentesque ipsum et hendrerit. Phasellus rhoncus
-                laoreet eleifend. Sed interdum consectetur mi sed
-                porta. In hac habitasse platea dictumst. Fusce
-                varius sollicitudin orci at rutrum. Praesent quis
-                neque ultricies, pulvinar lacus nec, tempus ipsum.
-                Fusce feugiat nibh id imperdiet consequat. Praesent
-                malesuada eget enim sed feugiat. Fusce rutrum
-                euismod tortor sit amet fringilla. Nulla tincidunt
-                nibh dapibus sagittis consequat. Pellentesque
-                lobortis sodales sollicitudin. Etiam condimentum
-                dolor id quam suscipit faucibus. Proin quis nisl a
-                nisl blandit euismod et non justo. Ut convallis,
-                nisi quis feugiat pellentesque, arcu enim ultricies
-                velit, eget vestibulum mauris felis non nibh.</p>
-              </div>
-              <div class="col-md-4 offset-md-2">
-                <p><strong >Operating system</strong><br>
-				<span id="dialog-os">Windows</span><br></p>
-              </div>
-              <div class="col-md-4">
-                <p><strong>Languages</strong><br>
-				<span id="dialog-languages">C++</span><br></p>
+
+            <div class="container modal-text-content">
+              <div class="row">
+                <div class=
+                "col col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+						<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut nisi tristique, posuere arcu ut, aliquam erat. Morbi dictum arcu eget tincidunt faucibus. Vestibulum bibendum pellentesque ipsum et hendrerit. Phasellus rhoncus laoreet eleifend. Sed interdum consectetur mi sed porta. In hac habitasse platea dictumst. Fusce varius sollicitudin orci at rutrum. Praesent quis neque ultricies, pulvinar lacus nec, tempus ipsum. Fusce feugiat nibh id imperdiet consequat. Praesent malesuada eget enim sed feugiat. Fusce rutrum euismod tortor sit amet fringilla. Nulla tincidunt nibh dapibus sagittis consequat. Pellentesque lobortis sodales sollicitudin. Etiam condimentum dolor id quam suscipit faucibus. Proin quis nisl a nisl blandit euismod et non justo. Ut convallis, nisi quis feugiat pellentesque, arcu enim ultricies velit, eget vestibulum mauris felis non nibh. </p>
               </div>
             </div>
+			<div class="col-md-4 offset-md-2" style="/*! display: none; */">
+
+          <p><strong>Operating system</strong><br>Windows<br>
+
+
+          </p>
+        </div><div style="/*! display: none; */" class="col-md-4">
+
+          <p><strong>Languages</strong><br>C++<br>
+
+
+          </p>
+        </div>
           </div>
         </div>
       </div>
@@ -171,9 +160,9 @@
             <img class="img-responsive" src=
             "images/projects/ft/ft.png" alt="">
             <div class="overlay">
-              <h2 >Fasten Tools</h2>
+              <h2>Fasten Tools</h2>
               <p>Some really short description of the
-              project</p><a href="javascript:openDialogFT();">View
+              project</p><a href="javascript:openDialog();">View
               more</a>
             </div>
           </div>
@@ -185,7 +174,7 @@
             <div class="overlay">
               <h2>Socker Physics</h2>
               <p>Some really short description of the
-              project</p><a href="javascript:openDialogSF();">View
+              project</p><a href="javascript:openDialog();">View
               more</a>
             </div>
           </div>
@@ -197,7 +186,7 @@
             <div class="overlay">
               <h2>Home Automation</h2>
               <p>Some really short description of the
-              project</p><a href="javascript:openDialogSH();">View
+              project</p><a href="javascript:openDialog();">View
               more</a>
             </div>
           </div>
@@ -209,7 +198,7 @@
             <div class="overlay">
               <h2>Sublime Key-Logger</h2>
               <p>Some really short description of the
-              project</p><a href="javascript:openDialogKL();">View
+              project</p><a href="javascript:openDialog();">View
               more</a>
             </div>
           </div>
