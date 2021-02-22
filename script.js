@@ -27,19 +27,25 @@ function openDialogFT(){
 			"images/projects/ft/5.jpg",
 			"images/projects/ft/6.jpg"
 	],
-				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and much more. Fasten Tools is one of the first projects I've done. <br> It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems."
+				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and <br> much more. <br> Fasten Tools is one of the first projects I've done. It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems. <br> Currently the app has more than 10,000 downloads on Google Play Store and an average rating of 4.1/5."
 			,"Android","Java");	
 }
 
 function openDialogSF(){
-	openDialog("Socker Physics","Soccer without rules",["images/projects/kl/1.png","images/projects/kl/2.png"],
-			"Lorem 2 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
-			,"Android","C#");	
+	openDialog("Socker Physics","Soccer without rules",[
+			"images/projects/kl/1.png",
+			"images/projects/kl/2.png"
+	],
+			"Socker Physics is an unordinary Android game. At a first glance it may look like a simple football game, but in reality it is more like a fighting, with no regard for rules and a violent gameplay. <br> The game is meant to be played with friends on one device with a maximum of 8 players at the same time. Socker Physics features many different locations and bonuses that keep the game fun and enjoyable."
+			,"Android","C#, Unity");	
 }
 
 function openDialogSH(){
-	openDialog("Home Automation","Automate your life!",["images/projects/kl/1.png","images/projects/kl/2.png"],
-			"Lorem 3 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
+	openDialog("Home Automation","Automate your life!",[
+			"images/projects/kl/1.png",
+			"images/projects/kl/2.png"
+	],
+			"The home automation project is a massive integration of various IoT devices such as Raspberry PI, Arduino and Espressif boards. Together they allow control over home lights, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All of the above features are accessible via an Android app."
 			,"Android, Linux","C++, Python, Java");	
 }
 
@@ -50,7 +56,7 @@ function openDialogKL(){
 			"images/projects/kl/3.jpg",
 			"images/projects/kl/4.jpg"
 	],
-			"Lorem 4 ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
+			"Sublime Key-Logger allows administrators to monitor users. It can monitor clipboard, programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. The Key-Logger is written in C++ and uses Windows Forms as a UI framework."
 			,"Windows","C++");	
 }
 
