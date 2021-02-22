@@ -2,24 +2,18 @@ function openDialog(title, subtitle, pictures, description, os, languages){
 	$('#dialog-title').text(title);
 	$('#dialog-subtitle').text(subtitle);
 
-	$('#dialog-text').text(description);
+	$('#dialog-text').html(description);
 	$('#dialog-os').text(os);
 	$('#dialog-languages').text(languages);
 
 	var carousel = $('#carousel-pictures');
-	var carousel_indicators = $('#carousel-indicators');
 	carousel.html("");
-	carousel_indicators.html("");
 	
-	var i = 0;
 	pictures.forEach((path) => {
-			i++;
 			carousel.append('<div class="carousel-item"><img src="'+path+'" class="d-block w-100" alt="slide-img-1"></div>');
-			carousel_indicators.append('<li data-target="#carousel-example" data-slide-to="'+i+'">&nbsp;</li>');
 	});
 
 	$(carousel.children()[0]).addClass('active');
-	$(carousel_indicators.children()[0]).addClass('active');
 
 	$('#info-modal').modal('show');
 }
@@ -33,7 +27,7 @@ function openDialogFT(){
 			"images/projects/ft/5.jpg",
 			"images/projects/ft/6.jpg"
 	],
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis ligula quis erat ultrices, sed posuere libero ultricies. Fusce massa orci, auctor et turpis sit amet, luctus imperdiet lacus. Morbi a ex cursus, interdum erat in, consectetur mi. Suspendisse tortor enim, egestas eu fermentum sed, lobortis quis purus. Vivamus non malesuada est, nec ultricies lacus. Nam in hendrerit sapien. Etiam cursus pharetra enim, vitae rutrum tortor interdum in. Maecenas a nunc eget risus euismod porta. Praesent volutpat vitae massa nec eleifend. Phasellus rhoncus commodo iaculis. Suspendisse semper mauris vel eros varius egestas. Ut imperdiet eros in tellus auctor maximus. Donec commodo urna ac sem suscipit, vitae ornare mi rhoncus. "
+				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and much more. Fasten Tools is one of the first projects I've done. <br> It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems."
 			,"Android","Java");	
 }
 
