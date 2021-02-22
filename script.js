@@ -33,8 +33,12 @@ function openDialogFT(){
 
 function openDialogSF(){
 	openDialog("Socker Physics","Soccer without rules",[
-			"images/projects/kl/1.png",
-			"images/projects/kl/2.png"
+			"images/projects/sf/1.jpg",
+			"images/projects/sf/2.jpg",
+			"images/projects/sf/3.jpg",
+			"images/projects/sf/4.jpg",
+			"images/projects/sf/5.jpg",
+			"images/projects/sf/6.jpg"
 	],
 			"Socker Physics is an unordinary Android game. At a first glance it may look like a simple football game, but in reality it is more like a fighting, with no regard for rules and a violent gameplay. <br> The game is meant to be played with friends on one device with a maximum of 8 players at the same time. Socker Physics features many different locations and bonuses that keep the game fun and enjoyable."
 			,"Android","C#, Unity");	
