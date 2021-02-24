@@ -120,29 +120,44 @@ experiences_add_experience('Location','Date - Date', 'speciality', 'the long lon
 experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
 experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
 
+function abilities_add(name, arr){
+abilities_add_section(name);
 
-abilities_add_section('Skills');
-abilities_add_abilities([
-		['skill',2],
-		['skill 2',4]
-]);
-abilities_add_abilities([
-		['skill 3',3],
-		['skill 4',1]
+
+var indexToSplit = Math.ceil(arr.length/2);
+var first = arr.slice(0, indexToSplit);
+var second = arr.slice(indexToSplit);
+
+abilities_add_abilities(first);
+abilities_add_abilities(second);
+}
+
+abilities_add('Skills',[
+		['Java',4],
+		['C#',4],
+		['C/C++',4],
+		['Android',4],
+		['Unity Engine',4],
+		['Arduino',4],
+		['Python',4],
+		['JavaScript',4],
+		['HTML',4],
+		['CSS',4],
+		['Bootstrap Framework',4],
 ]);
 
-abilities_add_section('Skills 2');
-abilities_add_abilities([
-		['skill',2],
-		['skill 3',3],
-		['skill 3',3],
-		['skill 3',3],
-		['skill 2',4]
+abilities_add('Languages',[
+		['Russian (native)',4],
+		['English (B2)',4],
 ]);
-abilities_add_abilities([
-		['skill 3',3],
-		['skill 3',3],
-		['skill 3',3],
-		['skill 3',3],
-		['skill 4',1]
+
+abilities_add('Tools',[
+		['JetBrains IDEs',4],
+		['GNU/Linux',4],
+		['Windows',4],
+		['Vim',4],
+		['Git',4],
+		['Geany',4],
+		['Notepad++',4],
 ]);
+
