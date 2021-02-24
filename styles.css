@@ -107,6 +107,11 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
     background-size: cover;
 }
 
+.padded .container {
+	max-width: 1200px;
+	padding: 40px 180px;
+}
+
 #content {
   height: 4000px;
 }
@@ -196,3 +201,19 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 #experiences .experience .experience-details { display: block; margin-top: 6px; }
 #experiences .experience .experience-details * { color: #bd31bb; }
 #experiences .experience .experience-details .seperator { color: #BCBCBC; }
+
+#abilities ul > li { min-height: 30px; padding: 3px 0px; }
+#abilities ul > li:hover { background: #F2F2F2; }
+#abilities ul > li .ability-title { display: inline-block; width: 60%; }
+#abilities ul > li .ability-score { float: right; }
+#abilities ul > li .ability-score i {
+	color: #DFE0E0;
+	font-size: 14px;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+#abilities ul > li .ability-score i.filled { color: #bd31bb; }
+
+#abilities ul > li:hover .ability-score i { margin-left: 2px; }

@@ -71,6 +71,78 @@ function calculate_age(dob) {
     return Math.abs(age_dt.getUTCFullYear() - 1970);
 }
 
+function experiences_add_section(name) {
+	$('#experiences-rows').append('<h3>'+name+'</h3>');
+}
+
+function experiences_add_experience(name, date, speciality, text, place) {
+	$('#experiences-rows').append(' <div class=\"experience row\"> <div class=\"col-md-4\"> <h4>'+name+'</h4> <p class=\"experience-period\">'+date+'</p> </div> <div class=\"col-md-8\"> <p><strong>'+speciality+'</strong> <span class=\"hidden-phone\">'+text+'</span> <span class=\"experience-details\"><span class=\"location\"><i class=\"bi-geo-alt-fill\"></i> '+place+'</span></span></p> </div> </div> ');
+}
+
+function abilities_add_section(name) {
+	$('#abilities').append('<hr><h3>'+name+'</h3><div class="row"></div>');
+}
+
+function abilities_get_list_item(name, rating){
+	var out = '<li> <span class="ability-title">'+name+'</span> <span class="ability-score"> ';
+	
+	for (var i=0; i<5; i++) {
+		if (i<rating)
+			out+='<i class="bi-star-fill filled"></i>';
+		else
+			out+='<i class="bi-star-fill"></i>';
+	}
+	
+	out+='</span> </li>';
+
+	return out;
+}
+
+function abilities_add_abilities(list) {
+	
+	var lines = '<div class="col-md-6"> <ul class="no-bullets">';
+	list.forEach( (item) => {
+		lines+=abilities_get_list_item(item[0], item[1]);
+	});
+
+	lines+='</ul></div>';
+
+	$('#abilities').children().last().append(lines);
+}
+
+/* START */
+
 var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
+experiences_add_section('Educations');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
+
+
+abilities_add_section('Skills');
+abilities_add_abilities([
+		['skill',2],
+		['skill 2',4]
+]);
+abilities_add_abilities([
+		['skill 3',3],
+		['skill 4',1]
+]);
+
+abilities_add_section('Skills 2');
+abilities_add_abilities([
+		['skill',2],
+		['skill 3',3],
+		['skill 3',3],
+		['skill 3',3],
+		['skill 2',4]
+]);
+abilities_add_abilities([
+		['skill 3',3],
+		['skill 3',3],
+		['skill 3',3],
+		['skill 3',3],
+		['skill 4',1]
+]);
