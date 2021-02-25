@@ -46,8 +46,10 @@ function openDialogSF(){
 
 function openDialogSH(){
 	openDialog("Home Automation","Automate your life!",[
-			"images/projects/kl/1.png",
-			"images/projects/kl/2.png"
+			"images/projects/sh/1.jpg",
+			"images/projects/sh/2.jpg",
+			"images/projects/sh/3.jpg",
+			"images/projects/sh/4.jpg"
 	],
 			"The home automation project is a massive integration of various IoT devices such as Raspberry PI, Arduino and Espressif boards. Together they allow control over home lights, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All of the above features are accessible via an Android app."
 			,"Android, Linux","C++, Python, Java");	
