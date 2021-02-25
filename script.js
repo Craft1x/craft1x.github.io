@@ -145,25 +145,25 @@ abilities_add('Skills',[
 		['Android',4],
 		['Unity Engine',4],
 		['Arduino',4],
-		['Python',4],
-		['JavaScript',4],
-		['HTML',4],
-		['CSS',4],
-		['Bootstrap Framework',4],
+		['Python',3],
+		['JavaScript',3],
+		['HTML',2],
+		['CSS',2],
+		['Bootstrap Framework',2],
 ]);
 
 abilities_add('Languages',[
-		['Russian (native)',4],
+		['Russian (native)',5],
 		['English (B2)',4],
 ]);
 
 abilities_add('Tools',[
-		['JetBrains IDEs',4],
+		['JetBrains IDEs',5],
 		['GNU/Linux',4],
 		['Windows',4],
 		['Vim',4],
-		['Git',4],
-		['Geany',4],
-		['Notepad++',4],
+		['Git',3],
+		['Notepad++',3],
+		['Geany',2],
 ]);
 
