@@ -112,15 +112,19 @@ function abilities_add_abilities(list) {
 	$('#abilities').children().last().append(lines);
 }
 
+function jump_to_projects(){
+	console.log("jump");
+}
+
 /* START */
 
 var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
 experiences_add_section('Educations');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','place');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
+experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
 
 function abilities_add(name, arr){
 abilities_add_section(name);
