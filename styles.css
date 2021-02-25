@@ -131,6 +131,13 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
   height: 4000px;
 }
 
+@media (max-width: 400px){
+	#contact {
+	padding-right: 30px;
+	padding-left: 30px;
+	}
+}
+
 #contact h2 , #contact .row * {
     color: #FFFFFF;
 }
