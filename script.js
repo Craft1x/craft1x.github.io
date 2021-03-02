@@ -27,7 +27,7 @@ function openDialogFT(){
 			"images/projects/ft/5.jpg",
 			"images/projects/ft/6.jpg"
 	],
-				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and <br> much more. <br> Fasten Tools is one of the first projects I've done. It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems. <br> Currently the app has more than 10,000 downloads on Google Play Store and an average rating of 4.1/5."
+				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and much more. <br> Fasten Tools is one of the first projects I've done. It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems. <br> Currently the app has more than 10,000 downloads on Google Play Store and an average rating of 4.1/5."
 			,"Android","Java");	
 }
 
@@ -40,7 +40,7 @@ function openDialogSF(){
 			"images/projects/sf/5.jpg",
 			"images/projects/sf/6.jpg"
 	],
-			"Socker Physics is an unordinary Android game. At a first glance it may look like a simple football game, but in reality it is more like a fighting, with no regard for rules and a violent gameplay. <br> The game is meant to be played with friends on one device with a maximum of 8 players at the same time. Socker Physics features many different locations and bonuses that keep the game fun and enjoyable."
+			"Socker Physics is an unordinary Android game. At a first glance it may look like a simple football game, but in reality it is more like a silly fighting simulator, with violent gameplay and no regard for rules. <br> The game is meant to be played with friends on a single device with a maximum of 8 players at the same time. Socker Physics features many different locations and bonuses that keep the game fun and enjoyable."
 			,"Android","C#, Unity");	
 }
 
@@ -51,18 +51,18 @@ function openDialogSH(){
 			"images/projects/sh/3.jpg",
 			"images/projects/sh/4.jpg"
 	],
-			"The home automation project is a massive integration of various IoT devices such as Raspberry PI, Arduino and Espressif boards. Together they allow control over home lights, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All of the above features are accessible via an Android app."
+			"The home automation project is a massive integration of multiple different IoT devices such as Raspberry PI, Arduino and Espressif boards. Together they provide control over house lighting, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All of the above features are accessible via an Android app."
 			,"Android, Linux","C++, Python, Java");	
 }
 
 function openDialogKL(){
-	openDialog("Sublime Key-logger","Monitor PC usage",[
+	openDialog("Sublime Key logger","Monitor PC usage",[
 			"images/projects/kl/1.jpg",
 			"images/projects/kl/2.jpg",
 			"images/projects/kl/3.jpg",
 			"images/projects/kl/4.jpg"
 	],
-			"Sublime Key-Logger allows administrators to monitor users. It can monitor clipboard, programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. The Key-Logger is written in C++ and uses Windows Forms as a UI framework."
+			"Sublime Key Logger is an easy to use user monitoring tool with rich functionality. It can do the following: monitor clipboard and programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. It is written in C++ and uses Windows Forms as a UI framework."
 			,"Windows","C++");	
 }
 
