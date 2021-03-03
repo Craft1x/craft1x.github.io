@@ -122,9 +122,9 @@ var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
 experiences_add_section('Educations');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
-experiences_add_experience('Location','Date - Date', 'speciality', 'the long long text for testing the field','Polotsk, Belarus');
+experiences_add_experience('Polotsk State University','Sep 2018 - Current', 'Higher education', 'While studying in the university I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in modern mathematics, computer science, modern programming paradigms, operating systems and netowork technologies. ','Polotsk, Belarus');
+experiences_add_experience('Foreign Languages Centre - Universum','Sep 2018 - May 2018', 'Course - English (B2)', 'During this course I\'ve improved my english writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
+experiences_add_experience('Middle School №8','Sep 2007 - May 2018', 'Primary and secondary education', 'I graduated highschool, where I discovered my true passion for programming and found some good friends. I also participated in coding and math olympiads.','Polotsk, Belarus');
 
 function abilities_add(name, arr){
 abilities_add_section(name);
@@ -141,15 +141,15 @@ abilities_add_abilities(second);
 abilities_add('Skills',[
 		['Java',4],
 		['C#',4],
-		['C/C++',4],
 		['Android',4],
 		['Unity Engine',4],
 		['Arduino',4],
-		['Python',3],
-		['JavaScript',3],
+		['C/C++',3],
+		['Python',2],
+		['JavaScript',2],
 		['HTML',2],
 		['CSS',2],
-		['Bootstrap Framework',2],
+		['Bootstrap Framework',1],
 ]);
 
 abilities_add('Languages',[
