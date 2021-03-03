@@ -27,7 +27,7 @@ function openDialogFT(){
 			"images/projects/ft/5.jpg",
 			"images/projects/ft/6.jpg"
 	],
-				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and much more. <br> Fasten Tools is one of the first projects I've done. It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems. <br> Currently the app has more than 10,000 downloads on Google Play Store and an average rating of 4.1/5."
+				"Fasten Tools is an android app that helps students with various mathematical calculations, unit conversion, algebra and much more. <br> Fasten Tools is one of the first projects I've done. It started out in 2015 as an experiment in Android development and over time grew into a full-fledged application, capable of helping students with various mathematical problems. <br> Currently, the app has more than 10,000 downloads on Google Play Store and an average rating of 4.1/5."
 			,"Android","Java");	
 }
 
@@ -40,7 +40,7 @@ function openDialogSF(){
 			"images/projects/sf/5.jpg",
 			"images/projects/sf/6.jpg"
 	],
-			"Socker Physics is an unordinary Android game. At a first glance it may look like a simple football game, but in reality it is more like a silly fighting simulator, with violent gameplay and no regard for rules. <br> The game is meant to be played with friends on a single device with a maximum of 8 players at the same time. Socker Physics features many different locations and bonuses that keep the game fun and enjoyable."
+			"Socker Physics is an unordinary Android game. At a first glance, it may look like a simple football game, but in reality it is more like a silly fighting simulator, with violent gameplay and no regard for rules. <br> The game is meant to be played with friends on a single device with a maximum of 8 players at the same time. Socker Physics features many locations and bonuses that keep the game fun and enjoyable."
 			,"Android","C#, Unity");	
 }
 
@@ -51,18 +51,18 @@ function openDialogSH(){
 			"images/projects/sh/3.jpg",
 			"images/projects/sh/4.jpg"
 	],
-			"The home automation project is a massive integration of multiple different IoT devices such as Raspberry PI, Arduino and Espressif boards. Together they provide control over house lighting, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All of the above features are accessible via an Android app."
+			"The home automation project is a massive integration of multiple different IoT devices such as Raspberry Pi, Arduino and Espressif boards. Together they provide control over house lighting, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All the above features are accessible via an Android app."
 			,"Android, Linux","C++, Python, Java");	
 }
 
 function openDialogKL(){
-	openDialog("Sublime Key logger","Monitor PC usage",[
+	openDialog("Sublime Key logger","Monitor computer usage",[
 			"images/projects/kl/1.jpg",
 			"images/projects/kl/2.jpg",
 			"images/projects/kl/3.jpg",
 			"images/projects/kl/4.jpg"
 	],
-			"Sublime Key Logger is an easy to use user monitoring tool with rich functionality. It can do the following: monitor clipboard and programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. It is written in C++ and uses Windows Forms as a UI framework."
+			"Sublime Key Logger is an easy-to-use user monitoring tool with rich functionality. It can do the following: monitor clipboard and programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. It is written in C++ and uses Windows Forms as a UI framework."
 			,"Windows","C++");	
 }
 
@@ -122,9 +122,9 @@ var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
 experiences_add_section('Educations');
-experiences_add_experience('Polotsk State University','Sep 2018 - Current', 'Higher education', 'While studying in the university I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in modern mathematics, computer science, modern programming paradigms, operating systems and netowork technologies. ','Polotsk, Belarus');
-experiences_add_experience('Foreign Languages Centre - Universum','Sep 2018 - May 2018', 'Course - English (B2)', 'During this course I\'ve improved my english writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
-experiences_add_experience('Middle School №8','Sep 2007 - May 2018', 'Primary and secondary education', 'I graduated highschool, where I discovered my true passion for programming and found some good friends. I also participated in coding and math olympiads.','Polotsk, Belarus');
+experiences_add_experience('Polotsk State University','Sep 2018 — Current', 'Higher education', 'While studying in the university, I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in modern mathematics, computer science, modern programming paradigms, operating systems and network technologies. ','Polotsk, Belarus');
+experiences_add_experience('Foreign Languages Center - Universum','Sep 2018 — May 2018', 'Course - English (B2)', 'During this course, I\'ve improved my English writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
+experiences_add_experience('Middle School №8','Sep 2007 — May 2018', 'Primary and secondary education', 'I graduated from high school, where I discovered my true passion for programming and found some good friends. I also participated in coding and math Olympiads.','Polotsk, Belarus');
 
 function abilities_add(name, arr){
 abilities_add_section(name);
