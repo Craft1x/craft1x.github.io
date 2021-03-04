@@ -62,7 +62,7 @@ function openDialogKL(){
 			"images/projects/kl/3.jpg",
 			"images/projects/kl/4.jpg"
 	],
-			"Sublime Key Logger is an easy-to-use user monitoring tool with rich functionality. It can do the following: monitor clipboard and programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project in the University. It is written in C++ and uses Windows Forms as a UI framework."
+			"Sublime Key Logger is an easy-to-use user monitoring tool with rich functionality. It can do the following: monitor clipboard and programs, record keystrokes and take screenshots at a desired interval. <br> The program is a result of a coursework project at the University. It is written in C++ and uses Windows Forms as a UI framework."
 			,"Windows","C++");	
 }
 
