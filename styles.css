@@ -1,6 +1,12 @@
-html{
+html, body { 
+	color: #434242;
+	font-family: 'Open Sans', sans-serif !important;
+	height: 100%;
+}
+
+html {
 	scroll-behavior:smooth;
-	}
+}
 
 h1, h2, h3, h4, h5, h6, strong, b {
 	font-family: 'Open Sans', sans-serif !important;
@@ -10,39 +16,40 @@ h1, h2, h3, h4, h5, h6, strong, b {
 h1,h4 { 
 	font-weight: 700;
 	margin-bottom: 10px;
-	}
+}
 
 h2,h3 { 
 	font-weight: 300;
 	color: #bd31bb;
-	}
+}
 
 h2 { 
 	font-size: 54px;
 	text-align: center;
-	padding-top: 20px}
+	padding-top: 20px;
+}
 
 h3 { 
 	font-size: 28px;
-	}
+}
 
 h4 { 
 	font-size: 18px;
-	}
+}
 
 p.lead { 
 	text-align: center;
 	color: #727878;
-	}
+}
 
 p.lead a { 
 	color: #FFFFFF;
 	text-decoration: underline;
-	}
+}
 
 p.lead a:hover { 
 	text-decoration: none;
-	}
+}
 
 #top a {
 	background: #fafafa00;
@@ -60,7 +67,7 @@ p.lead a:hover {
 
 .modal-xl {
 	max-width: 800px;
-  }
+}
 
 .modal-content {
 	border-radius: 0px;
@@ -69,15 +76,15 @@ p.lead a:hover {
 
 .background-white { 
 	background: #FFFFFF;
-	}
+}
 	
 .background-tinted { 
 	background: #fff6fd;
-	}
+}
 
 .background-grey { 
 	background: #434242;
-	}
+}
 
 .padded {
 	padding-top: 10px;
@@ -108,9 +115,9 @@ p.lead a:hover {
 }
 
 .jumbotron .container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .jumbotron p {
@@ -125,8 +132,6 @@ p.lead a:hover {
     background-size: cover;
 	margin-bottom: 0px;
 }
-
-html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; height: 100%; }
 
 .image {
     width:100%;
@@ -157,13 +162,13 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
 }
 
 #content {
-  height: 4000px;
+	height: 4000px;
 }
 
 @media (max-width: 400px){
 	#contact {
-	padding-right: 30px;
-	padding-left: 30px;
+		padding-right: 30px;
+		padding-left: 30px;
 	}
 }
 
@@ -189,10 +194,19 @@ html, body { color: #434242; font-family: 'Open Sans', sans-serif !important; he
 	width: 32px;
 	height: 32px;
 	margin-right: 15px;
-	}
+}
 
-ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
-hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+ul.no-bullets { 
+	list-style-type: none;
+	margin: 0px; padding: 0px;
+}
+
+hr { 
+	margin: 40px 0px;
+	border-color: #727878;
+	opacity: 0.2;
+	filter:alpha(opacity=20);
+}
 
 .top-content .carousel-control-prev-icon {
     width: 40px;
@@ -217,16 +231,16 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 }
 
 .carousel-control-prev {
-  margin-left: -15%;
-  -webkit-transform:rotate(180deg);
-  -moz-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+	margin-left: -15%;
+	-webkit-transform:rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 
 .carousel-control-next {
-  margin-right: -15%;
+	margin-right: -15%;
 }
 
 .modal-text-content {
@@ -246,17 +260,46 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     user-select: none;
 }
 
+#experiences .experience { 
+	margin-bottom: 20px;
+}
 
-#experiences .experience { margin-bottom: 20px; }
-#experiences .experience p > strong { display: block; padding-top: 8px; margin-bottom: 10px; }
-#experiences .experience .experience-details { display: block; margin-top: 6px; }
-#experiences .experience .experience-details * { color: #bd31bb; }
-#experiences .experience .experience-details .seperator { color: #BCBCBC; }
+#experiences .experience p > strong { 
+	display: block;
+	padding-top: 8px;
+	margin-bottom: 10px;
+}
 
-#abilities ul > li { min-height: 30px; padding: 3px 0px; }
-#abilities ul > li:hover { background: #F2F2F2; }
-#abilities ul > li .ability-title { display: inline-block; width: 60%; }
-#abilities ul > li .ability-score { float: right; }
+#experiences .experience .experience-details { 
+	display: block;
+	margin-top: 6px;
+}
+
+#experiences .experience .experience-details * { 
+	color: #bd31bb;
+}
+
+#experiences .experience .experience-details .seperator { 
+	color: #BCBCBC;
+}
+
+#abilities ul > li { 
+	min-height: 30px;
+	padding: 3px 0px;
+}
+#abilities ul > li:hover {
+	background: #F2F2F2;
+}
+
+#abilities ul > li .ability-title { 
+	display: inline-block;
+	width: 60%;
+}
+
+#abilities ul > li .ability-score { 
+	float: right;
+}
+
 #abilities ul > li .ability-score i {
 	color: #DFE0E0;
 	font-size: 14px;
@@ -265,6 +308,11 @@ hr { margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
     -o-transition: all 0.3s;
     transition: all 0.3s;
 }
-#abilities ul > li .ability-score i.filled { color: #bd31bb; }
 
-#abilities ul > li:hover .ability-score i { margin-left: 2px; }
+#abilities ul > li .ability-score i.filled {
+	color: #bd31bb;
+}
+
+#abilities ul > li:hover .ability-score i {
+	margin-left: 2px;
+}

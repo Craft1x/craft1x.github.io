@@ -40,7 +40,7 @@ function openDialogSF(){
 			"images/projects/sf/5.jpg",
 			"images/projects/sf/6.jpg"
 	],
-			"Socker Physics is an unordinary Android game. At a first glance, it may look like a simple football game, but in reality it is more like a silly fighting simulator, with violent gameplay and no regard for rules. <br> The game is meant to be played with friends on a single device with a maximum of 8 players at the same time. Socker Physics features many locations and bonuses that keep the game fun and enjoyable."
+			"Socker Physics is an unordinary Android game. At a first glance, it may look like a simple football game, but in reality it is more like a silly fighting simulator, with violent gameplay and no regard for rules. <br> The game is meant to be played with friends on a single device with a maximum of 8 players at a time. Socker Physics features many locations and bonuses that keep the game fun and enjoyable."
 			,"Android","C#, Unity");	
 }
 
@@ -51,7 +51,7 @@ function openDialogSH(){
 			"images/projects/sh/3.jpg",
 			"images/projects/sh/4.jpg"
 	],
-			"The home automation project is a massive integration of multiple different IoT devices such as Raspberry Pi, Arduino and Espressif boards. Together they provide control over house lighting, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows users to create custom schedules. All the above features are accessible via an Android app."
+			"The home automation project is a massive integration of multiple different IoT devices such as Raspberry Pi, Arduino and Espressif boards. Together they provide control over house lighting, water heating, camera recording and a door lock. The system monitors room's temperatures, power usage and allows its users to create custom schedules. All the above features are accessible via an Android app."
 			,"Android, Linux","C++, Python, Java");	
 }
 
@@ -122,7 +122,7 @@ var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
 experiences_add_section('Educations');
-experiences_add_experience('Polotsk State University','Sep 2018 — Current', 'Higher education', 'While studying in the university, I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in modern mathematics, computer science, modern programming paradigms, operating systems and network technologies. ','Polotsk, Belarus');
+experiences_add_experience('Polotsk State University','Sep 2018 — Current', 'Higher education', 'While studying in the university, I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in mathematics, computer science, modern programming paradigms, operating systems and network technologies. ','Polotsk, Belarus');
 experiences_add_experience('Foreign Languages Center - Universum','Sep 2018 — May 2018', 'Course - English (B2)', 'During this course, I\'ve improved my English writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
 experiences_add_experience('Middle School №8','Sep 2007 — May 2018', 'Primary and secondary education', 'I graduated from high school, where I discovered my true passion for programming and found some good friends. I also participated in coding and math Olympiads.','Polotsk, Belarus');
 
