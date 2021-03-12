@@ -122,8 +122,8 @@ var age = calculate_age(new Date(2000,10,26));
 $("#age").text(age + " Years");
 
 experiences_add_section('Educations');
-experiences_add_experience('Polotsk State University','Sep 2018 — Current', 'Higher education', 'While studying in the university, I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in mathematics, computer science, modern programming paradigms, operating systems and network technologies. ','Polotsk, Belarus');
-experiences_add_experience('Foreign Languages Center - Universum','Sep 2018 — May 2018', 'Course - English (B2)', 'During this course, I\'ve improved my English writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
+experiences_add_experience('Polotsk State University','Sep 2018 — Current', 'Higher education', 'While studying in the university, I\'ve worked on many complicated software projects. Also, I\'ve gained a good amount of knowledge in mathematics, modern programming paradigms, operating systems and network technologies. ','Polotsk, Belarus');
+experiences_add_experience('Foreign Languages Center - Universum','Sep 2018 — May 2019', 'Course - English (B2)', 'During this course, I\'ve improved my English writing skills as well as reading and verbal comprehension.','Polotsk, Belarus');
 experiences_add_experience('Middle School №8','Sep 2007 — May 2018', 'Primary and secondary education', 'I graduated from high school, where I discovered my true passion for programming and found some good friends. I also participated in coding and math Olympiads.','Polotsk, Belarus');
 
 function abilities_add(name, arr){
